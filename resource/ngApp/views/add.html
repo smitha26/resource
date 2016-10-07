@@ -1,0 +1,12 @@
+<p>
+  Add a new movie to the list
+</p>
+<form ng-submit ="controller.addMovie()">
+  <div>
+    <label for="title">Title:</label>
+    <input id="title" ng-model="controller.movieToCreate.title">
+</div>
+<label for="director">Director:</label>
+<input id="director" ng-model="controller.movieToCreate.director">
+</div>
+<input type="submit"value="Save">
